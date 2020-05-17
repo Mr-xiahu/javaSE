@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;OpentorDemo.java&apos; to &apos;Day03-eclipse/src/com.xiahu&apos;&#x0D;&#x0A;- Original project: &apos;Day03-eclipse&apos;&#x0D;&#x0A;- Destination element: &apos;Day03-eclipse/src/com.xiahu&apos;&#x0D;&#x0A;- Original element: &apos;com.xiahu.OpentorDemo.java&apos;" description="Copy compilation unit" destination="/src&lt;com.xiahu" element1="/src&lt;com.xiahu{OpentorDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1543220956544" units="1" version="1.0"/>
+</session>

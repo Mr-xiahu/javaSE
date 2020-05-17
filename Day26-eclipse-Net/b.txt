@@ -1,0 +1,37 @@
+你好
+我去你大爷的
+
+package com.xiahu.J_Socket_TCP;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.net.Socket;
+
+/*
+ * 客户端读取文本文件,服务器显示在控制台
+ */
+public class ClinetDemo {
+	public static void main(String[] args) throws IOException {
+		// 创建客户端套接字
+		Socket s = new Socket("192.168.226.1", 6666);
+
+		// 读取文本文件
+		BufferedReader br = new BufferedReader(new FileReader("b.txt"));
+
+		// 创建输出流
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
+				s.getOutputStream()));
+		String line = null;
+		while ((line = br.readLine()) != null) {
+			bw.write(line);
+			bw.newLine();
+			bw.flush();
+		}
+
+		s.close();
+	}
+
+}

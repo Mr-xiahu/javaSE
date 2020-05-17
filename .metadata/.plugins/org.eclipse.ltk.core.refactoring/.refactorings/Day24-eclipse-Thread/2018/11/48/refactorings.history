@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.xiahu.D_ThreadGroup&apos; to &apos;Day24-eclipse-Thread/src/com.xiahu.C_Student_Wait&apos;&#x0D;&#x0A;- Original project: &apos;Day24-eclipse-Thread&apos;&#x0D;&#x0A;- Destination element: &apos;Day24-eclipse-Thread/src/com.xiahu.C_Student_Wait&apos;&#x0D;&#x0A;- Original element: &apos;Day24-eclipse-Thread/src/com.xiahu.D_ThreadGroup&apos;" description="Copy package" destination="/src&lt;com.xiahu.C_Student_Wait" element1="/src&lt;com.xiahu.D_ThreadGroup" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1543501649566" version="1.0"/>
+</session>
